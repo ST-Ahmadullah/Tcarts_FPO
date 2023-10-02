@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-02T12:51:53 IST" name="Default suite" finished-at="2023-10-02T12:52:01 IST" duration-ms="8426">
+    <groups>
+    </groups>
+    <test started-at="2023-10-02T12:51:53 IST" name="Default test" finished-at="2023-10-02T12:52:01 IST" duration-ms="8426">
+      <class name="com.Tcarts_FPO.Settings">
+        <test-method signature="setUp()[pri:0, instance:com.Tcarts_FPO.Settings@4d847d32]" started-at="2023-10-02T12:51:53 IST" name="setUp" finished-at="2023-10-02T12:51:54 IST" duration-ms="1303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="settings()[pri:0, instance:com.Tcarts_FPO.Settings@4d847d32]" started-at="2023-10-02T12:51:54 IST" name="settings" finished-at="2023-10-02T12:51:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- settings -->
+        <test-method signature="logIn()[pri:0, instance:com.Tcarts_FPO.Settings@4d847d32]" started-at="2023-10-02T12:51:54 IST" name="logIn" finished-at="2023-10-02T12:51:56 IST" depends-on-methods="com.Tcarts_FPO.Settings.setUp" duration-ms="2129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method signature="holidays()[pri:0, instance:com.Tcarts_FPO.Settings@4d847d32]" started-at="2023-10-02T12:51:56 IST" name="holidays" finished-at="2023-10-02T12:52:01 IST" depends-on-methods="com.Tcarts_FPO.Settings.settings" duration-ms="4973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- holidays -->
+      </class> <!-- com.Tcarts_FPO.Settings -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
